@@ -33,6 +33,7 @@ from filelock import FileLock
 from . import file_utils
 
 SERVICE_CONF = "service_conf.yaml"
+SERVICE_CONF = "service_conf_vpn.yaml"
 
 
 def conf_realpath(conf_name):
